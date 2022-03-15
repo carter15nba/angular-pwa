@@ -18,14 +18,10 @@
 
 ```bash
 # choose a repo
+# Original repo: https://github.com/ganatan/angular-pwa
+
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-pwa.git
-
-# download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-pwa.git
-
-# download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-pwa.git
+git clone https://github.com/carter15nba/angular-pwa.git
 
 # change directory
 cd angular-pwa
@@ -48,10 +44,11 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Developpement
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
-* or install: sudo npm install -g http-server
-* run: http-server -o
-* navigate to /ui/angular-starter-home.html
-* use Chrome Console > Lighthouse > Generate Report
+
+* Install http-server for testing: sudo npm install -g http-server
+* Run: http-server -o
+* In the browser, navigate to /ui/angular-starter-home.html
+* Use Chrome Console (F12) > Lighthouse > Generate Report
 
 ## Tests (Use Chrome Version 87 minimum)
 * `npm run test`

@@ -48,6 +48,10 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Developpement
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
+* or install: sudo npm install -g http-server
+* run: http-server -o
+* navigate to /ui/angular-starter-home.html
+* use Chrome Console > Lighthouse > Generate Report
 
 ## Tests (Use Chrome Version 87 minimum)
 * `npm run test`
